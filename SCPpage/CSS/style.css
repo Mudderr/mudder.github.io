@@ -74,3 +74,40 @@ body {
     font-size: 24px;
     font-weight: bold;
 }
+
+/* Style for centering text */
+.main-text {
+    margin: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; /* Adjust the height as needed */
+}
+
+.origin-banner {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    width: 100vw; /* Change to viewport width */
+}
+
+.origin-banner img {
+    width: 70%; /* Change to 100% */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.origin-item {
+    text-align: center; /* Center text */
+    margin: 10px; /* Add some spacing between items */
+}
+
+.origin-item img {
+    width: 80%;
+    height: 80%;
+}
+
+.origin-item p {
+    margin-top: 5px; /* Adjust spacing between image and text */
+}
