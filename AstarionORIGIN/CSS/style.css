@@ -1,0 +1,56 @@
+h1 {
+    color: white;
+    font-family: sans-serif;
+}
+
+p {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #121017;
+}
+
+body {
+    background-color: #0d0e0e;
+    font-family: sans-serif;
+    margin: 0; /* Reset default margin to avoid unexpected spacing */ 
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #19171e;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #121017;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+}
+
+.navbar a {
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #4f4d4d;
+    color: black;
+}
+
+
+
