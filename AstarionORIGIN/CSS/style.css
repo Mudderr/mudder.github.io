@@ -22,15 +22,18 @@ html, body {
 
 body {
     background-color: #0d0e0e;
+    background-color: #19171e;
     font-family: sans-serif;
     margin: 0; /* Reset default margin to avoid unexpected spacing */ 
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrollbar */
 }
 
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #19171e;
-}
+/* Make the navbar sticky */
+.navbar {
+    position: sticky;
+    top: 0;
+  }
 
 .navbar {
     overflow: hidden;
@@ -52,5 +55,79 @@ body {
     color: black;
 }
 
+.header-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
 
+
+a {
+    color: rgb(255, 255, 255); /* Set the text color to blue */
+    text-decoration: underline; /* Add an underline to the text */
+}
+
+a:hover {
+    color: rgb(83, 90, 108); /* Change text color to red on hover */
+}
+
+.origin-items{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.origin-items img{
+    width: 40%;
+    height: 100%;
+}
+
+
+/* for the text */
+.text-container {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    padding: 15px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none; /* Remove the underline */
+    cursor: pointer;
+  }
+  
+  /* Optional: Change the style when the link is hovered */
+  a:hover {
+    color: rgb(88, 82, 82);
+  }
+  
+
+  
+  /* Left Sidebar */
+  .left-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 10%;
+    background-color: #16141b; /* Set the background color for the left sidebar */
+  }
+  
+  /* Right Sidebar */
+  .right-sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 10%;
+    background-color:#16141b; /* Set the background color for the right sidebar */
+  }
+  
 

@@ -89,7 +89,7 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
-    height: 100vh;
+    height: 70%;
     width: 100vw; /* Change to viewport width */
 }
 
@@ -100,7 +100,7 @@ body {
 
 .origin-item {
     text-align: center; /* Center text */
-    margin: 10px; /* Add some spacing between items */
+    margin: 0px; /* Add some spacing between items */
 }
 
 .origin-item img {
@@ -109,5 +109,19 @@ body {
 }
 
 .origin-item p {
+    margin-top: 5px; /* Adjust spacing between image and text */
+}
+
+.origin-item2 {
+    text-align: center; /* Center text */
+    margin: 0px; /* Add some spacing between items */
+}
+
+.origin-item2 img{
+    width: 65%;
+    height: 65%;
+}
+
+.origin-item2 p {
     margin-top: 5px; /* Adjust spacing between image and text */
 }
